@@ -19,8 +19,7 @@ function suma() {
 }
 
 function media() {
-    var med = 0;
-    med = suma(array1) / array1.length;
+    var med = suma(array1) / array1.length;
 
     objmedia = { "media": med };
 
@@ -29,7 +28,7 @@ function media() {
 
 alert("la suma es: " + suma());
 alert("la media es: " + media());
-document.write();
+document.write(); 
 
 
 
