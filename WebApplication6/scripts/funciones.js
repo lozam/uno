@@ -23,3 +23,4 @@ var recibir = function (pasado) {
 };
 
 recibir(pasar);
+//-----------------------------------------
