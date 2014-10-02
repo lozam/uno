@@ -61,8 +61,10 @@
   <ItemGroup>
     <Content Include="css\estilos.css" />
     <Content Include="documento.html" />
+    <Content Include="formulario.html" />
     <Content Include="index.html" />
     <Content Include="scripts\ejemplo1.js" />
+    <Content Include="scripts\formControl.js" />
     <Content Include="scripts\JavaScript1.js" />
     <Content Include="scripts\funciones.js" />
     <Content Include="scripts\manejoJS.js" />

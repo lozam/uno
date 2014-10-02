@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="scripts/formControl.js"></script>
+</head>
+<body>
+    <input type="text" id="nombre" placeholder="Nombre" /><br />
+    <input type="text" id="nota" placeholder="Nota" /><br />
+    <input type="text" id="edad" placeholder="Edad" /><br />
+    <input type="button" id="guardar" value="Guardar" /><br />
+
+    <div id="salidaTxt" style="width:200px; height:100px; background-color:lightgray; border:1px solid gray;"></div><br /><br />
+    
+
+    <ul id="listado">
+    </ul>
+    
+    <input type="button" id="buscar" value="Buscar" />
+    <input type="text" id="aBuscar" placeholder="..." /><br />
+    <input type="button" id="media" value="Media" />
+    <script>
+        (function () {
+            document.getElementById("guardar").onclick = guardaAlumno; 
+            document.getElementById("buscar").onclick = buscador;
+            document.getElementById("media").onclick = notamedia;
+        })();
+    </script>
+    
+
+</body>
+</html>
