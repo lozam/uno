@@ -59,10 +59,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HtmlPage1.html" />
+    <Content Include="css\estilos.css" />
+    <Content Include="documento.html" />
+    <Content Include="index.html" />
     <Content Include="scripts\ejemplo1.js" />
     <Content Include="scripts\JavaScript1.js" />
     <Content Include="scripts\funciones.js" />
+    <Content Include="scripts\manejoJS.js" />
+    <Content Include="scripts\objetos.js" />
     <Content Include="scripts\operaciones.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -76,9 +80,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="scripts\ej1.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
